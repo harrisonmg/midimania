@@ -4,7 +4,7 @@
   (descr "SMD rectangular pad as test Point, square 1.5mm side length")
   (tags "test point SMD pad rectangle square")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at -3.6 0) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 25.4 0) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 309955ad-407b-4550-a766-e24e6f71dc5d)
   )
