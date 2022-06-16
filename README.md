@@ -36,4 +36,6 @@
 |[Slide Potentiometer](https://www.adafruit.com/product/4272)|$7.80 ($1.95 ea)|
 |[Rubber Foot Pads (50x)](https://www.amazon.com/dp/B01LDLJF5K?psc=1&ref=ppx_yo2ov_dt_b_product_details)|$7.79|
 |[1k Through-hole Resistor (100x)](https://www.amazon.com/dp/B07HDDWFDD?ref=ppx_yo2ov_dt_b_product_details&th=1)|$4.99|
-|TOTAL|$199.62 (yikes)|
+|[Potentiometer Knobs (20x)](https://www.ebay.com/itm/192481232352)|$4.73|
+|[Slide Potentiometer Knobs (10x)](https://www.ebay.com/itm/384835783660)|$2.45|
+|TOTAL|$206.80 (yikes)|
