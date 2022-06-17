@@ -20,7 +20,6 @@
 ## Software
 * Running Arduino
 * Using [USB MIDI](https://www.pjrc.com/teensy/td_midi.html#:~:text=When%20you%20select%20%22MIDI%22%20from,3.0%20to%203.6%20are%20supported.)
-* Potentiometer debouncing methods found in [this PJRC thread](https://forum.pjrc.com/threads/34641-Potentiometer-Debouncing-Revisited)
 
 ## Bill of Materials
 |Part|Price|
