@@ -53,6 +53,6 @@ The aluminum legs strip easily.
 
 <img src=https://user-images.githubusercontent.com/3968357/174227735-90e30a60-fb7d-4c22-90c3-6f87cf66122b.jpg width=500>
 
-The PCBs look great. There's a few spots where the silkscreen wasn't printed. I knew the fab house would remove silkscreen on top of exposed copper, but it looks like they also remove silkscreen within a small radius around exposed copper. Also, some small lines on the left didn't print; I have no explanation for that.
+The PCBs look great. There's a few spots where the silkscreen wasn't printed. I knew the fab house would remove silkscreen on top of exposed copper, but it looks like they also remove silkscreen within a small radius around exposed copper. Also, some small lines on the left were left out; I'm not sure how that happened.
 
 <img src=https://user-images.githubusercontent.com/3968357/175648443-2222eb2a-7af6-4e36-8ac1-b9a7dbe4157b.jpg width=700>
