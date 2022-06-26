@@ -2,7 +2,7 @@
 
 ## Mechanical
 * Designed in [Onshape Free](https://www.onshape.com/en/products/free)
-* 8 Beatmania IIDX clone switches w/ LEDs from AliExpress
+* 8 beatmania IIDX clone switches w/ LEDs from AliExpress
 * 4 rotary potentiometers and 4 slide potentiometers
 * Faceplate laser cut on 1/8" 5052 aluminum by [SendCutSend](https://sendcutsend.com/)
 * Using aluminum wall mount sign holders with rubber pads as legs
