@@ -43,7 +43,7 @@
 
 Everything went in beautifully. The faceplate only needed a little bit of post-processing with a file and some scotch brite.
 
-<img src=https://user-images.githubusercontent.com/3968357/174227494-75c7efd0-1a9d-4c79-9968-8b448f8a25a3.jpg width=800>
+<img src=https://user-images.githubusercontent.com/3968357/174227494-75c7efd0-1a9d-4c79-9968-8b448f8a25a3.jpg width=1000>
 
 The rotary potentiometer pins were longer than expected. I extended each slide potentiometer pin with the metal innard of a female pin header so that the PCB will sit parallel to the faceplate.
 
@@ -56,3 +56,17 @@ The aluminum legs strip easily.
 The PCBs look great. There's a few spots where the silkscreen wasn't printed. I knew the fab house would remove silkscreen on top of exposed copper, but it looks like they also remove silkscreen within a small radius around exposed copper. Also, some small lines on the left were left out; I'm not sure how that happened.
 
 <img src=https://user-images.githubusercontent.com/3968357/175648443-2222eb2a-7af6-4e36-8ac1-b9a7dbe4157b.jpg width=700>
+
+The copper wiring was a pain. Removing the coating from the jewelry wire and trying to keep everythiung straight and sized correctly was tedious.
+
+The easiest method I found to remove the coating was scraping with a razor blade. Fun-Tak was useful for securing things while soldering.
+
+I could've benefitted from better modeling of the wiring ahead of time, and I should've used through-hole pads on the PCB for the wire.
+
+In the future I might try to use thicker wire that holds it shape better. Since I still have a bunch of wire left over, I'll probably find a way to strip a large amount of it ahead of time. I think I'll also buy better solder.
+
+<img src=https://user-images.githubusercontent.com/3968357/175838444-0dd81fe0-da31-4dcc-ad0d-67d16ba71546.jpg width=900>
+
+This sketch I found in my notes is pretty much how each switch is wired.
+
+<img src=https://user-images.githubusercontent.com/3968357/175838534-672a5651-38cd-4588-b52f-f91d4a364c2e.jpg width=600>
