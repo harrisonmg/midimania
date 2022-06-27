@@ -1,5 +1,5 @@
 #include <ResponsiveAnalogRead.h>
-#include <Bounce.h>
+#include <Bounce2.h>
 
 const int channel = 1;          // MIDI channel
 const int A_PINS = 8;           // number of Analog PINS
@@ -13,10 +13,11 @@ const int DIGITAL_PINS[D_PINS] = {7, 6, 5, 4, 3, 2, 1, 0};
 const int NOTES[D_PINS] = {60, 61, 62, 63, 64, 65, 66, 67};
 
 const int BOUNCE_TIME = 5;  // ms
+const int FADER_ZERO = 4;
 
 
 byte data[A_PINS];
-byte dataLag[A_PINS]; // when lag and new are not the same then update MIDI CC value
+byte control_lag[A_PINS]; // when lag and new are not the same then update MIDI CC value
 
 ResponsiveAnalogRead analog[] =
 {
@@ -44,8 +45,9 @@ Bounce digital[] =
 
 void setup()
 {
+    Serial.begin(9600);
     for (int i = 0; i < D_PINS; ++i)
-        pinMode(DIGITAL_PINS[i], INPUT_PULLUP);
+        pinMode(DIGITAL_PINS[i], INPUT_PULLDOWN);
 }
 
 void loop()
@@ -63,10 +65,19 @@ void getAnalogData()
         if(analog[i].hasChanged())
         {
             data[i] = analog[i].getValue() >> 3;
-            if (data[i] != dataLag[i])
+
+            // invert and handle fader deadzone
+            int control = data[i];
+            if (i < 4 && control < FADER_ZERO)
             {
-                dataLag[i] = data[i];
-                usbMIDI.sendControlChange(CCID[i], data[i], channel);
+                control = 0;
+            }
+            control = 127 - control;
+
+            if (control != control_lag[i])
+            {
+                control_lag[i] = control;
+                usbMIDI.sendControlChange(CCID[i], control, channel);
             }
         }
     }
@@ -78,10 +89,10 @@ void getDigitalData()
     {
         digital[i].update();
 
-        if (digital[i].fallingEdge())
+        if (digital[i].risingEdge())
             usbMIDI.sendNoteOn(NOTES[i], ON_VELOCITY, channel);
 
-        if (digital[i].risingEdge())
+        if (digital[i].fallingEdge())
             usbMIDI.sendNoteOff(NOTES[i], 0, channel);
     }
 }
