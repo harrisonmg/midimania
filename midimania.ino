@@ -68,11 +68,24 @@ void getAnalogData()
 
             // invert and handle fader deadzone
             int control = data[i];
-            if (i < 4 && control < FADER_ZERO)
+            if (i < 4)
             {
-                control = 0;
+                if (control <= FADER_ZERO)
+                {
+                    control = 0;
+                }
+                else if (127 - control <= FADER_ZERO)
+                {
+                    control = 127;
+                }
             }
+
             control = 127 - control;
+
+            if (i < 4)
+            {
+                Serial.println(control);
+            }
 
             if (control != control_lag[i])
             {
