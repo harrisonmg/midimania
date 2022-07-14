@@ -1,5 +1,7 @@
 # A Custom MIDI Controller Design
 
+<img src=https://user-images.githubusercontent.com/3968357/178887607-fe8d6180-0e9d-4c14-a54c-961e3ffdb826.jpg width=1000>
+
 ## Mechanical
 * Designed in [Onshape Free](https://www.onshape.com/en/products/free)
 * 8 beatmania IIDX clone switches w/ LEDs from AliExpress
@@ -41,9 +43,9 @@
 
 ## Build Notes
 
-Everything went in beautifully. The faceplate only needed a little bit of post-processing with a file and some scotch brite.
+Everything fit in the plate beautifully. The faceplate only needed a little bit of post-processing with a file and some scotch brite.
 
-<img src=https://user-images.githubusercontent.com/3968357/174227494-75c7efd0-1a9d-4c79-9968-8b448f8a25a3.jpg width=1000>
+<img src=https://user-images.githubusercontent.com/3968357/174227494-75c7efd0-1a9d-4c79-9968-8b448f8a25a3.jpg width=700>
 
 The rotary potentiometer pins were longer than expected. I extended each slide potentiometer pin with the metal innard of a female pin header so that the PCB will sit parallel to the faceplate.
 
@@ -53,7 +55,7 @@ The aluminum legs strip easily.
 
 <img src=https://user-images.githubusercontent.com/3968357/174227735-90e30a60-fb7d-4c22-90c3-6f87cf66122b.jpg width=500>
 
-The PCBs look great. There's a few spots where the silkscreen wasn't printed. I knew the fab house would remove silkscreen on top of exposed copper, but it looks like they also remove silkscreen within a small radius around exposed copper. Also, some small lines on the left were left out; I'm not sure how that happened.
+The PCBs look great. There's a few spots where the silkscreen wasn't printed. I knew the fab house would remove silkscreen on top of exposed copper, but it looks like they also remove silkscreen within a small radius around exposed copper. Also, some small lines on the left were left out of my Gerbers; I'm not sure how that happened.
 
 <img src=https://user-images.githubusercontent.com/3968357/175648443-2222eb2a-7af6-4e36-8ac1-b9a7dbe4157b.jpg width=700>
 
@@ -70,3 +72,7 @@ In the future I might try to use thicker wire that holds it shape better. Since 
 This sketch I found in my notes is pretty much how each switch is wired.
 
 <img src=https://user-images.githubusercontent.com/3968357/175838534-672a5651-38cd-4588-b52f-f91d4a364c2e.jpg width=600>
+
+Finally, the linear and rotary potentiometer knobs both needed some work. I bought rotary pots without knob splines because they seemed nicer (apart from that), so I just drilled out the knobs a big to fit on. The linear pots came with knobs, but I bought nicer ones that were way too tight. I shaved down the linear pot stems a bit with a razor blade and used some Fun-Tak to try and help them sit a bit higher and not scratch against the plate.
+
+Both sets of knobs still rub on the plate a bit, I think 1/8" is probably the upper limit these parts are intended to be mounted through.
