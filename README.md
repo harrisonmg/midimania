@@ -59,7 +59,7 @@ The PCBs look great. There's a few spots where the silkscreen wasn't printed. I 
 
 <img src=https://user-images.githubusercontent.com/3968357/175648443-2222eb2a-7af6-4e36-8ac1-b9a7dbe4157b.jpg width=700>
 
-The copper wiring was a pain. Removing the coating from the jewelry wire and trying to keep everythiung straight and sized correctly was tedious.
+The copper wiring was a pain. Removing the coating from the jewelry wire and trying to keep everything straight and sized correctly was tedious.
 
 The easiest method I found to remove the coating was scraping with a razor blade. Fun-Tak was useful for securing things while soldering.
 
